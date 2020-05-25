@@ -1,0 +1,16 @@
+{
+  "name": "techdegree-project-6",
+  "version": "1.0.0",
+  "description": "Static Node.js and Express Site for the Treehouse FSJS Techdegree",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agata Zurek",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}

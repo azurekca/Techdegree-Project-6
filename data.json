@@ -1,0 +1,91 @@
+{
+	"projects": [
+		{
+			"id": 0,
+			"project_name": "Natasza Zurek Art",
+			"description": "A showcase of artwork by Natasza Zurek",
+			"technologies": ["HTML", "CSS"],
+			"live_link": "https://nataszazurekart.com/",
+			"github_link": "https://github.com/azurekca/Natasza-Zurek-Art-Website",
+			"image_urls": []
+    },
+    {
+      "id": 1,
+      "project_name": "Public API Requests",
+      "description": "",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "live_link": "https://azurekca.github.io/Techdegree-Project-5/",
+      "github_link": "https://github.com/azurekca/Techdegree-Project-5",
+      "image_urls": []
+    },
+    {
+      "id": 2,
+      "project_name": "Object Oriented JavaScript",
+      "description": "",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "live_link": "https://azurekca.github.io/Techdegree-Project-4/",
+      "github_link": "https://github.com/azurekca/Techdegree-Project-4",
+      "image_urls": []
+    },
+    {
+      "id": 3,
+      "project_name": "Interactive Form",
+      "description": "",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "live_link": "https://azurekca.github.io/Techdegree-Project-3/",
+      "github_link": "https://github.com/azurekca/Techdegree-Project-3",
+      "image_urls": []
+    },
+    {
+      "id": 4,
+      "project_name": "Pagination",
+      "description": "",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "live_link": "https://azurekca.github.io/Techdegree-Project-2/",
+      "github_link": "https://github.com/azurekca/Techdegree-Project-2",
+      "image_urls": []
+    },
+    {
+      "id": 5,
+      "project_name": "A Random Quote Generator",
+      "description": "",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "live_link": "https://azurekca.github.io/Techdegree-Project-1/",
+      "github_link": "https://github.com/azurekca/Techdegree-Project-1",
+      "image_urls": []
+    },
+    {
+      "id": 6,
+      "project_name": "Connect Four Game",
+      "description": "",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "live_link": "https://azurekca.github.io/Connect-Four/",
+      "github_link": "https://github.com/azurekca/connect-four",
+      "image_urls": []
+    }
+	]
+}
