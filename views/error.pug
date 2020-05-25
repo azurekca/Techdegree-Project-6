@@ -1,4 +1,14 @@
 extends layout
 
 block content
-  h1 Error Page
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') < Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x.grid-margin-x
+      .cell.small-11.medium-12
+
+        h1 Error #{error.status}
+        p.lead.text-light
+          | #{error.message}
+        h5 Stack Trace
+        pre #{error.stack}

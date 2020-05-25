@@ -2,10 +2,10 @@ extends layout.pug
 
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/') < Back
   article.grid-container.portfolio-intro.portfolio-project
-    .grid-x
-      .cell.small-6.medium-9.large-9
+    .grid-x.grid-margin-x
+      .cell.small-11.medium-8.large-8
 
         h1 Agata Zurek
 
@@ -18,17 +18,17 @@ block content
           p
             | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position. 
             | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-      .cell.portfolio-meta.small-6.medium-2.large-3
+      .cell.portfolio-meta.small-11.medium-auto.large-auto
         h6 Skills
 
         ul
           li JavaScript
           li Node.js
-          li HTML
-          li CSS
+          li html
+          li css
           li Responsive Design
           li Express 
-          li Pug and EJS Templates
+          li Pug and ejs Templates
           li MongoDB
           li Git
           li Being a nice person and a good communicator
@@ -42,5 +42,5 @@ block content
         //- Add URLs to the hrefs below to link to your social media accounts.
         a.button.expanded(href='https://github.com/azurekca' target="_blank" rel="noreferrer") GitHub
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/') < Back
   

@@ -2,24 +2,19 @@ extends layout.pug
 
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/') < Back
   article.grid-container.portfolio-intro.portfolio-project
-    .grid-x
-      .cell.small-6.medium-9.large-9
+    .grid-x.grid-margin-x
+      .cell.small-12.medium-8.large-8
 
         //- Use interpolation to dynamically add the project title.
         h1 #{project.project_name}
-
-        if `${project.project_name}` === 'potato'
-          h2 potato
-        else
-          h2 NO POTATO
 
         //- Use interpolation to dynamically add the project description.
         p.lead.text-light
           | #{project.description}
 
-      .cell.portfolio-meta.small-6.medium-2.large-3
+      .cell.portfolio-meta.small-12.medium-auto.large-3
         h6 Technologies
 
         //- Use an `each` iterator to replace the li tags below and interpolation to dynamically add the technologies used in each project.
