@@ -18,7 +18,7 @@ app.use((req, res, next) => {
 
   const err = new Error('Error');
   err.status = 404;
-  err.message = 'Oops, page not found. Looks like that page does not exist.';
+  err.message = "Looks like that page doesn't exist.";
 
   next(err);
 });
