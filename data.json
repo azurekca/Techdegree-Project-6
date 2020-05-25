@@ -3,32 +3,51 @@
 		{
 			"id": 0,
 			"project_name": "Natasza Zurek Art",
-			"description": "A showcase of artwork by Natasza Zurek",
-			"technologies": ["HTML", "CSS"],
+			"description": "My first website built from scratch. It showcases Natasza Zurek's artwork. Yes, she is my sister, and yes, she is very happy with the site.",
+			"technologies": ["html", "css", "Web Design"],
 			"live_link": "https://nataszazurekart.com/",
 			"github_link": "https://github.com/azurekca/Natasza-Zurek-Art-Website",
 			"image_urls": []
     },
     {
       "id": 1,
+      "project_name": "YelpCamp",
+      "description": "",
+      "technologies": [
+        "JavaScript",
+        "DOM Manipulation",
+        "API Request",
+        "JSON",
+        "html",
+        "css"
+      ],
+      "live_link": "https://sleepy-everglades-99325.herokuapp.com/",
+      "github_link": "https://github.com/azurekca/YelpCamp",
+      "image_urls": []
+    },
+    {
+      "id": 2,
       "project_name": "Public API Requests",
       "description": "",
       "technologies": [
-        "HTML",
-        "CSS",
-        "JavaScript"
+        "JavaScript",
+        "DOM Manipulation",
+        "API Request",
+        "JSON",
+        "html",
+        "css"
       ],
       "live_link": "https://azurekca.github.io/Techdegree-Project-5/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-5",
       "image_urls": []
     },
     {
-      "id": 2,
+      "id": 3,
       "project_name": "Object Oriented JavaScript",
       "description": "",
       "technologies": [
-        "HTML",
-        "CSS",
+        "html",
+        "css",
         "JavaScript"
       ],
       "live_link": "https://azurekca.github.io/Techdegree-Project-4/",
@@ -36,12 +55,12 @@
       "image_urls": []
     },
     {
-      "id": 3,
+      "id": 4,
       "project_name": "Interactive Form",
       "description": "",
       "technologies": [
-        "HTML",
-        "CSS",
+        "html",
+        "css",
         "JavaScript"
       ],
       "live_link": "https://azurekca.github.io/Techdegree-Project-3/",
@@ -49,12 +68,12 @@
       "image_urls": []
     },
     {
-      "id": 4,
+      "id": 5,
       "project_name": "Pagination",
       "description": "",
       "technologies": [
-        "HTML",
-        "CSS",
+        "html",
+        "css",
         "JavaScript"
       ],
       "live_link": "https://azurekca.github.io/Techdegree-Project-2/",
@@ -62,12 +81,12 @@
       "image_urls": []
     },
     {
-      "id": 5,
+      "id": 6,
       "project_name": "A Random Quote Generator",
       "description": "",
       "technologies": [
-        "HTML",
-        "CSS",
+        "html",
+        "css",
         "JavaScript"
       ],
       "live_link": "https://azurekca.github.io/Techdegree-Project-1/",
@@ -75,12 +94,12 @@
       "image_urls": []
     },
     {
-      "id": 6,
+      "id": 7,
       "project_name": "Connect Four Game",
       "description": "",
       "technologies": [
-        "HTML",
-        "CSS",
+        "html",
+        "css",
         "JavaScript"
       ],
       "live_link": "https://azurekca.github.io/Connect-Four/",
