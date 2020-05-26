@@ -10,11 +10,14 @@ router.get('/about', (req, res) => {
   res.render('about');
 });
 
-router.get('/project/:id', (req, res) => {
+router.get('/project/:id', (req, res, next) => {
   const id = req.params.id;
   const project = projects.find(project => project.id === +id);
-  
-  res.render('project', { project })
+  if (project) {
+    res.render('project', { project })
+  } else {
+    next();
+  }
 })
 
 
