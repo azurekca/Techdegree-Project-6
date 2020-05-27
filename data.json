@@ -3,35 +3,49 @@
 		{
 			"id": 0,
 			"project_name": "Natasza Zurek Art",
-			"description": "My first website built from scratch. It showcases Natasza Zurek's artwork. Yes, she is my sister, and yes, she is very happy with the site.",
-			"technologies": ["html", "css", "Web Design"],
+			"description": "My first website built from scratch. It showcases Natasza Zurek's artwork. Natasza had previously worked with two other web developers but was unhappy with the final results. By communicating freely and openly, I developed this site for her to meet her current needs. She is very happy with the site, and yes, she is my sister.",
+			"technologies": ["html", "css", "Responsive Design", "Web Design"],
 			"live_link": "https://nataszazurekart.com/",
 			"github_link": "https://github.com/azurekca/Natasza-Zurek-Art-Website",
-			"image_urls": []
+			"image_urls": {
+        "cover": "/static/images/nat-website-cover.png",
+        "lg": "/static/images/nat-website-desktop.jpg",
+        "md": "/static/images/nat-website-tablet.png",
+        "sm": "/static/images/nat-website-phone.png",
+        "alt": "Screenshot of Natasza Zurek Art website"
+      }
     },
     {
       "id": 1,
       "project_name": "YelpCamp",
-      "description": "",
+      "description": "This is a hypothetical website for people to look up information on campgrounds, read reviews and leave their own reviews. You can create a user profile to add campgrounds and leave comments. Authentication is used to allow or block permissions based on user id. This is the final project built with the help of a for the Udemy course 'Web Developer Bootcamp by Colt Steele.'",
       "technologies": [
         "JavaScript",
-        "DOM Manipulation",
-        "API Request",
-        "JSON",
+        "RESTful routing",
+        "Express",
+        "ejs Templates",
+        "MongoDB Atlas",
+        "Passport Authentication",
         "html",
-        "css"
+        "Semantic UI front-end framework"
       ],
       "live_link": "https://sleepy-everglades-99325.herokuapp.com/",
       "github_link": "https://github.com/azurekca/YelpCamp",
-      "image_urls": []
+      "image_urls": {
+          "cover": "/static/images/yelpcamp-cover.png",
+          "lg": "/static/images/yelpcamp-desktop.jpg",
+          "md": "/static/images/yelpcamp-tablet.jpg",
+          "sm": "/static/images/yelpcamp-phone.jpg",
+          "alt": "Screenshot of YelpCamp website"
+        }
     },
     {
       "id": 2,
       "project_name": "Public API Requests",
-      "description": "",
+      "description": "This website gets random user data from the Random User Generator API and displays user data in an imaginary startup company employee directory. Additional details on each user are displayed when selected and the directory is searchable.",
       "technologies": [
         "JavaScript",
-        "DOM Manipulation",
+        "Asynchronous JavaScript",
         "API Request",
         "JSON",
         "html",
@@ -39,25 +53,38 @@
       ],
       "live_link": "https://azurekca.github.io/Techdegree-Project-5/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-5",
-      "image_urls": []
+      "image_urls": {
+          "cover": "/static/images/public-api-cover.jpg",
+          "lg": "/static/images/public-api-desktop.jpg",
+          "md": "/static/images/public-api-tablet.jpg",
+          "sm": "/static/images/public-api-phone.jpg",
+          "alt": "Screenshot of public api web app"
+        }
     },
     {
       "id": 3,
-      "project_name": "Object Oriented JavaScript",
-      "description": "",
+      "project_name": "Word Guessing Game",
+      "description": "This is a browser-based word guessing game similar to hangman. A random phrase is hidden on the screen and the player guesses individual letters to guess the phrase.",
       "technologies": [
         "html",
         "css",
-        "JavaScript"
+        "JavaScript",
+        "Object Oriented JavaScript"
       ],
       "live_link": "https://azurekca.github.io/Techdegree-Project-4/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-4",
-      "image_urls": []
+      "image_urls": {
+          "cover": "/static/images/word-game-cover.jpg",
+          "lg": "/static/images/word-game-desktop.jpg",
+          "md": "/static/images/word-game-tablet.png",
+          "sm": "/static/images/word-game-phone.png",
+          "alt": "Screenshot of Word Guessing Game project"
+        }
     },
     {
       "id": 4,
       "project_name": "Interactive Form",
-      "description": "",
+      "description": "This form demonstrates using JavaScript for client side validation. It does not rely on any of the built in browser validations but instead provides helpful feedback to a person signing up for an imaginary conference. ",
       "technologies": [
         "html",
         "css",
@@ -65,12 +92,18 @@
       ],
       "live_link": "https://azurekca.github.io/Techdegree-Project-3/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-3",
-      "image_urls": []
+      "image_urls": {
+          "cover": "/static/images/conf-form-cover.jpg",
+          "lg": "/static/images/conf-form-desktop.jpg",
+          "md": "/static/images/conf-form-tablet.png",
+          "sm": "/static/images/conf-form-phone.png",
+          "alt": "Screenshot of Interactive Form project"
+        }
     },
     {
       "id": 5,
       "project_name": "Pagination",
-      "description": "",
+      "description": "This project demonstrates unobtrusive JavaScript to display a long list of student names separated into discrete pages. The user can access all the students by using the links provided at the bottom of the page. This project relies on DOM manipulation and list iteration to parse the HTML data and provide functionality. Without JavaScript enabled, the entire list of students is displayed at once. A search box is also provided to facilitate searching for students by name with a full or partial match.",
       "technologies": [
         "html",
         "css",
@@ -78,12 +111,18 @@
       ],
       "live_link": "https://azurekca.github.io/Techdegree-Project-2/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-2",
-      "image_urls": []
+      "image_urls": {
+          "cover": "/static/images/pagination-cover.jpg",
+          "lg": "/static/images/pagination-desktop.jpg",
+          "md": "/static/images/pagination-tablet.png",
+          "sm": "/static/images/pagination-phone.png",
+          "alt": "Screenshot of Pagination project."
+        }
     },
     {
       "id": 6,
       "project_name": "A Random Quote Generator",
-      "description": "",
+      "description": "An app to demonstrate DOM manipulation and simple data structures.",
       "technologies": [
         "html",
         "css",
@@ -91,20 +130,30 @@
       ],
       "live_link": "https://azurekca.github.io/Techdegree-Project-1/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-1",
-      "image_urls": []
+      "image_urls": {
+          "cover": "/static/images/quotes-cover.jpg",
+          "lg": "/static/images/quotes-desktop.jpg",
+          "md": "/static/images/quotes-tablet.png",
+          "sm": "/static/images/quotes-phone.png",
+          "alt": "Screenshot of A Random Quote Generator project."
+        }
     },
     {
       "id": 7,
       "project_name": "Connect Four Game",
-      "description": "",
+      "description": "A browser based version of the classic game Connect Four. The game is completely created with DOM elements and CSS. I made it with the help of a Treehouse tutorial.",
       "technologies": [
         "html",
         "css",
-        "JavaScript"
+        "Object Oriented JavaScript"
       ],
       "live_link": "https://azurekca.github.io/Connect-Four/",
       "github_link": "https://github.com/azurekca/connect-four",
-      "image_urls": []
+      "image_urls": {
+          "cover": "/static/images/connect-4-cover.jpg",
+          "lg": "/static/images/connect-4-desktop.jpg",
+          "alt": "Screenshot of connect four game"
+        }
     }
 	]
 }
