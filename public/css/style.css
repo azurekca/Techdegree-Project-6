@@ -71,7 +71,7 @@ p {
 nav.grid-container {
 	margin: 0;
   padding: 10px 40px 0;
-  max-width: 1200px;
+  max-width: none;
 }
 
 nav a {
@@ -150,18 +150,7 @@ a:hover {
 .portfolio-index .thumbnail {
   margin-bottom: 5px;
 	border: solid 4px #fefefe;
-	box-shadow: 0 0 0 1px var(--color-med-dark);
-}
-
-
-.portfolio-index .thumbnail.empty {
-  background-color: var(--color-bright);
-  content: ' ';
-	width: 550px;
-  height: 100px;
-  border: none;
-  box-shadow: none;
-  outline: none;
+	box-shadow: 0 0 0 1px var(--color-med);
 }
 
 .portfolio-index .cell {
@@ -358,6 +347,10 @@ div.laptop.cell {
   height: auto;
   background: transparent;
   border-radius: 4px;
+}
+
+article.grid-container.portfolio-intro.portfolio-project {
+  max-width: none;
 }
 
 @media (min-width: 640px) {
