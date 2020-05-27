@@ -14,8 +14,8 @@ html(class="no-js" lang="en" dir="ltr")
       .grid-y.grid-padding-x(style='height: 100%;')
         block sidebar
           br
-          .cell.shrink
-            img.thumbnail(src='https://placehold.it/550x350')
+          a.cell.shrink(href='/')
+            img.thumbnail(src="/static/images/agata-square.jpg" alt="Agata Zurek")
           .cell.auto
 
             h5 Agata Zurek
@@ -24,7 +24,6 @@ html(class="no-js" lang="en" dir="ltr")
             p.text-light
               | Description
 
-            //- Add about page route to the href below. 
             a(href='/about') Learn More About Me >
 
     .off-canvas-content(data-off-canvas-content='')
