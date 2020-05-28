@@ -1,5 +1,5 @@
 const express = require('express');
-const path = require('path'); // not sure i'm going to use this
+const path = require('path');
 const PORT = process.env.PORT || 3000;
 
 const app = express();
@@ -13,9 +13,6 @@ app.use(routes);
 
 // route not found, create custom 404 error
 app.use((req, res, next) => {
-  // Log statement to indicate that this function is running 
-  console.log('Handling 404 error');
-
   const err = new Error('Error');
   err.status = 404;
   err.message = "Looks like that page doesn't exist.";
@@ -26,8 +23,7 @@ app.use((req, res, next) => {
 // Global custom error handler
 app.use((err, req, res, next) => {
   // Log statement to indicate that this function is running
-  console.log('Handling a global error');
-  console.log(err);
+  console.log(err.status, err);
 
   res.locals.error = err;
   res.locals.message = err.message;
