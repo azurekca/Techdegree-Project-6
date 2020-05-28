@@ -18,7 +18,7 @@
     {
       "id": 1,
       "project_name": "YelpCamp",
-      "description": "This is a hypothetical website for people to look up information on campgrounds, read reviews and leave their own reviews. You can create a user profile to add campgrounds and leave comments. Authentication is used to allow or block permissions based on user id. This is the final project built with the help of a for the Udemy course 'Web Developer Bootcamp by Colt Steele.'",
+      "description": "This is a hypothetical website for people to look up information on campgrounds, read reviews and leave their own reviews. You can create a user profile to add campgrounds and leave comments. Authentication is used to allow or block permissions based on user id. This is the final project built with the help of and for the Udemy course 'Web Developer Bootcamp by Colt Steele.'",
       "technologies": [
         "JavaScript",
         "RESTful routing",
