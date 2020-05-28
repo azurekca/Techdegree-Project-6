@@ -13,7 +13,7 @@
 
  ### CSS Modifications
 
- - created image frames that look like a phone, a tablet and a laptop with the help of starter code from W3School https://www.w3schools.com/howto/howto_css_devices.asp
+ - created image frames that look like a phone, a tablet and a laptop with the help of starter code from [W3School](https://www.w3schools.com/howto/howto_css_devices.asp)
  - optimized the foundation css framework classes to make the site responsive and mobile friendly
  - created a colour palette that adheres to accessibility guidelines for contrast; tested with Chrome Dev Tools
  - used CSS variables to store the colour palette
