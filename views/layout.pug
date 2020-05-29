@@ -5,10 +5,11 @@ html(class="no-js" lang="en" dir="ltr")
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Agata's Portfolio
-    link(href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&display=swap" rel="stylesheet") 
+    link(href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet") 
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
-    link(rel="shortcut icon", href="/static/favicon.ico", type="image/x-icon")
+    link(rel="shortcut icon", href="/static/favicon/favicon.ico", type="image/x-icon")
+    link(rel="manifest", href="/static/favicon/manifest.json")
   body
     #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
       .grid-y.grid-padding-x(style='height: 100%;')
@@ -20,9 +21,8 @@ html(class="no-js" lang="en" dir="ltr")
 
             h5 Agata Zurek
 
-            //- Add text here to describe who you are, what you do, and why you are so awesome.
             p.text-light
-              | Description
+              | Full Stack JavaScript developer with a love for design.
 
             a(href='/about') Learn More About Me >
 

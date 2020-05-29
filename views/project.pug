@@ -23,7 +23,8 @@ block content
 
         a.button.expanded(href=`${project.live_link}` target="_blank" rel="noreferrer") Live
         a.button.expanded(href=`${project.github_link}` target="_blank" rel="noreferrer") GitHub
-       
+      h2.cell
+        | Project Gallery 
       if project.image_urls.sm
         .phone.cell.small-5.medium-4.medium-offset-1.large-offset-2
           img.content(src=`${project.image_urls.sm}` alt=`${project.image_urls.alt}`)

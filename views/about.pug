@@ -3,42 +3,47 @@ extends layout.pug
 block content 
   nav.grid-container
     .grid-x.grid-margin-x
-      a.cell.small-2(href='/') < Home
+      a.cell.small-4(href='/') < Home
   main.grid-container.portfolio-intro.portfolio-project
     .grid-x.grid-margin-x
-      .cell.small-11.medium-8.large-8
+      .cell.small-11.medium-8.large-9
 
         h1 Agata Zurek
 
         p.lead.text-light
-          | Full Stack JavaScript Developer.
+          | Junior Full Stack JavaScript Developer
 
-        //- Replace the boilerplate below with your Elevator pitch below.
         .portfolio-bio
           p
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
+            | I'm learning full stack JavaScript to make fast and reliable websites and apps for small businesses and individuals. 
+            
+            | While working as a GIS specialist, I taught myself how to program to solve workflow inefficiencies and discovered I had a passion for coding. I've continued my coding education at Team Treehouse, first by completing the Front End Developer Track and now continuing with the Full Stack JavaScript Techdegree. I'm combining all of my knowledge of data management, effective communication, problem solving and design to make beautiful and functional sites 
 
-      .cell.portfolio-meta.small-11.medium-auto.large-auto
+      .cell.portfolio-meta.small-11.medium-auto
         h6 Skills
-
         ul
           li JavaScript
           li Node.js
-          li html
-          li css
-          li Responsive Design
+          li: span html
+          li: span css
+          li Responsive design
           li Express 
-          li Pug and ejs Templates
+          li Pug and ejs templates
           li MongoDB
           li Git
-          li Being a nice person and a good communicator
-        h6 Contact Info
-
-        //- Add your own contact info
+          li: span sql
+          li Design basics
+          li Technical writing
+        h6 Learning
         ul
-          li email@email.com
+          li React
+          li How to sew my own wardrobe
+        h6 Contact Info
+        ul
+          li: address: a(href="mailto:agata.w.zurek@gmail.com") agata.w.zurek@gmail.com
 
         a.button.expanded(href='https://github.com/azurekca' target="_blank" rel="noreferrer") GitHub
-  nav.grid-container.portfolio-breadcrumb
+        a.button.expanded(href='https://www.linkedin.com/in/agata-zurek-0a186013a' target="_blank" rel="noreferrer") LinkedIn
+  nav.grid-container
     a(href='/') < Home
   
