@@ -21,9 +21,19 @@ h6 {
 	color: var(--color-dark);
 }
 
-h1 {
+h1, h2 {
 	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, var(--color-bright) 50%);
-	padding-left: 0.5em;
+  padding-left: 0.5em;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 1rem;
 }
 
 h5 {
@@ -42,7 +52,8 @@ h6 {
 
 p {
   font-family: 'Open Sans','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 15px;
+  font-size: 1.125rem;
+  line-height: 1.58;
 	color: #666;
 }
 
@@ -56,7 +67,8 @@ p {
 
 .button {
 	color: var(--color-med-dark);
-	background-color: var(--color-med);
+  background-color: var(--color-med);
+  font-weight: bold;
 }
 
 .button:hover {
@@ -72,6 +84,10 @@ nav.grid-container {
 	margin: 0;
   padding: 10px 40px 0;
   max-width: none;
+}
+
+nav.grid-container:last-of-type {
+  padding-bottom: 20px;
 }
 
 nav a {
@@ -94,6 +110,14 @@ a.cell {
 
 a:hover {
 	color: var(--color-med);
+}
+
+a img:hover {
+  cursor: pointer;
+}
+
+span {
+  font-variant: small-caps;
 }
 
 .image {
@@ -134,11 +158,10 @@ a:hover {
 
 .portfolio-intro {
 	margin: 0;
-	padding: 40px 50px 30px;
+	padding: 30px 30px 30px;
 }
 
 .portfolio-intro p {
-	border-bottom: 1px solid var(--color-dark);
 	padding-bottom: 10px;
 }
 
@@ -149,12 +172,23 @@ a:hover {
 
 .portfolio-index .thumbnail {
   margin-bottom: 5px;
-	border: solid 4px #fefefe;
-	box-shadow: 0 0 0 1px var(--color-med);
+	border: none;
+  box-shadow: 0 0 25px -13px var(--color-bright);
+  transition: transform linear 0.5s;
+}
+
+.portfolio-index .thumbnail:hover {
+  transform: scale3d(1.08, 1.08, 1.08);
+  transform-origin: center;
+  transition: transform linear 3s;
+}
+
+.portfolio-index .cell div {
+  overflow: hidden;
 }
 
 .portfolio-index .cell {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .portfolio-index .cell h3 {
@@ -162,10 +196,6 @@ a:hover {
 	text-align: left;
 	font-size: 1.7rem;
 	padding-left: 1rem;
-}
-
-.portfolio-meta.cell {
-  margin-left: auto;
 }
 
 .portfolio-meta .button {
@@ -178,9 +208,19 @@ a:hover {
 
 .portfolio-project li {
 	font-size: 18px;
-	font-variant: small-caps;
   color: #444;
   list-style: none;
+}
+
+.portfolio-project li address {
+  display: inline;
+  font-style: inherit;
+  font-weight: normal;
+}
+
+.portfolio-project li address a {
+  color: #444;
+
 }
 
 .portfolio-project li::before {
@@ -188,7 +228,7 @@ a:hover {
 }
 
 .portfolio-bio {
-	line-height: 25px;
+  max-width: 600px;
 }
 
 .title-bar {
@@ -221,9 +261,7 @@ div.laptop.cell {
   max-width: 1000px;
   height: auto;
   border-radius: 6px;
-  border-style: solid;
-  border-color: var(--color-black);
-  border-width: 2px;
+  border: 2px solid var(--color-black);
   background-color: var(--color-black);
   padding: 1.5% 1% 1%;
   margin: 1.5rem auto 3rem;
@@ -272,20 +310,20 @@ div.laptop.cell {
   max-width: 450px;
   height: auto;
   margin: 1.2rem auto;
-  border: 16px var(--color-black) solid;
-  border-top-width: 50px;
-  border-bottom-width: 50px;
-  border-radius: 26px;
+  border: 0px var(--color-black) solid;
+  background-color: var(--color-black);
+  padding: 4% 1%;
+  border-radius: 5%;
 }
 
 /* The circle on the top of the device */
 .tablet:before {
   content: '';
   display: block;
-  width: 6px;
-  height: 6px;
+  width: 1.3%;
+  height: 0.9%;
   position: absolute;
-  top: -25px;
+  top: 3.7%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: #333;
@@ -296,11 +334,11 @@ div.laptop.cell {
 .tablet:after {
   content: '';
   display: block;
-  width: 26px;
-  height: 26px;
+  width: 5.8%;
+  height: 3.78%;
   position: absolute;
   left: 50%;
-  bottom: -50px;
+  bottom: -0.5%;
   transform: translate(-50%, -50%);
   background: #333;
   border: 1px solid #ffe8e2;
@@ -321,20 +359,23 @@ div.laptop.cell {
   max-width: 200px;
   height: auto;
   margin:  auto;
-  border: 6px var(--color-black) solid;
-  border-top-width: 20px;
-  border-bottom-width: 15px;
-  border-radius: 23px;
+  border: 1px var(--color-black) solid;
+  background-color: var(--color-black);
+  /* border-top-width: 20px; */
+  /* border-bottom-width: 15px; */
+  border-radius: 8%/4%;
+  padding: 1.6% 0.45% 1.4%;
+  
 }
 
 /* The horizontal line on the top of the device */
 .phone:before {
   content: '';
   display: block;
-  width: 40px;
-  height: 4px;
+  width: 20%;
+  height: 0.9%;
   position: absolute;
-  top: -10px;
+  top: 2%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: #333;
@@ -354,12 +395,25 @@ article.grid-container.portfolio-intro.portfolio-project {
 }
 
 @media (min-width: 640px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.6rem;
+    margin-top: 0;
+  }
   div.laptop.cell {
-  width: 80%;
-}
+    width: 80%;
+  }
+  .portfolio-intro {
+    padding: 40px 50px 30px;
+  }
+  .portfolio-meta.cell {
+    margin-left: auto;
+  }
 }
 @media (min-width: 1024px) {
   div.laptop.cell {
-  width: 70%;
-}
+    width: 70%;
+  }
 }
