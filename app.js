@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80; // for testing was 3000, changed to 80 for digital ocean. Would be good to figure process.env.PORT for digital ocean.
 
 const app = express();
 
