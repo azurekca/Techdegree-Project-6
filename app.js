@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || '159.203.58.213:80'; // ip for digital ocean, was port 3000 for testing
+
 
 const app = express();
 
