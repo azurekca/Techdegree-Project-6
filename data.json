@@ -4,7 +4,7 @@
 			"id": 0,
 			"project_name": "Natasza Zurek Art",
 			"description": "My first website built from scratch. It showcases Natasza Zurek's artwork. Natasza had previously worked with two other web developers but was unhappy with the final results. By communicating freely and openly, I developed this site for her to meet her current needs. She is very happy with the site, and yes, she is my sister.",
-			"technologies": ["html", "css", "Responsive Design", "Web Design"],
+			"technologies": ["HTML", "CSS", "Responsive Design", "Web Design"],
 			"live_link": "https://nataszazurekart.com/",
 			"github_link": "https://github.com/azurekca/Natasza-Zurek-Art-Website",
 			"image_urls": {
@@ -26,7 +26,7 @@
         "ejs Templates",
         "MongoDB Atlas",
         "Passport Authentication",
-        "html",
+        "HTML",
         "Semantic UI front-end framework"
       ],
       "live_link": "https://sleepy-everglades-99325.herokuapp.com/",
@@ -41,6 +41,29 @@
     },
     {
       "id": 2,
+      "project_name": "SQL Library",
+      "description": "A web application for listing, adding, updating and deleting books in a library. The live version is a demo, so just in case you try to store something in it, it will be gone by tomorrow.",
+      "technologies": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "Pug Templates",
+        "Sequelize",
+        "HTML",
+        "CSS"
+      ],
+      "live_link": "https://sql-library-demo.herokuapp.com/books/",
+      "github_link": "https://github.com/azurekca/Techdegree-Project-8",
+      "image_urls": {
+        "cover": "/static/images/library-cover.jpg",
+        "lg": "/static/images/library-desktop.jpg",
+        "md": "/static/images/library-tablet.jpg",
+        "sm": "/static/images/library-phone.jpg",
+        "alt": "Screenshot of SQL library website"
+      }
+    },
+    {
+      "id": 3,
       "project_name": "Public API Requests",
       "description": "This website gets random user data from the Random User Generator API and displays user data in an imaginary startup company employee directory. Additional details on each user are displayed when selected and the directory is searchable.",
       "technologies": [
@@ -48,8 +71,8 @@
         "Asynchronous JavaScript",
         "API Request",
         "JSON",
-        "html",
-        "css"
+        "HTML",
+        "CSS"
       ],
       "live_link": "https://azurekca.github.io/Techdegree-Project-5/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-5",
@@ -62,12 +85,12 @@
         }
     },
     {
-      "id": 3,
+      "id": 4,
       "project_name": "Word Guessing Game",
       "description": "This is a browser-based word guessing game similar to hangman. A random phrase is hidden on the screen and the player guesses individual letters to guess the phrase.",
       "technologies": [
-        "html",
-        "css",
+        "HTML",
+        "CSS",
         "JavaScript",
         "Object Oriented JavaScript"
       ],
@@ -82,12 +105,12 @@
         }
     },
     {
-      "id": 4,
+      "id": 5,
       "project_name": "Interactive Form",
       "description": "This form demonstrates using JavaScript for client side validation. It does not rely on any of the built in browser validations but instead provides helpful feedback to a person signing up for an imaginary conference. ",
       "technologies": [
-        "html",
-        "css",
+        "HTML",
+        "CSS",
         "JavaScript"
       ],
       "live_link": "https://azurekca.github.io/Techdegree-Project-3/",
@@ -101,12 +124,12 @@
         }
     },
     {
-      "id": 5,
+      "id": 6,
       "project_name": "Pagination",
       "description": "This project demonstrates unobtrusive JavaScript to display a long list of student names separated into discrete pages. The user can access all the students by using the links provided at the bottom of the page. This project relies on DOM manipulation and list iteration to parse the HTML data and provide functionality. Without JavaScript enabled, the entire list of students is displayed at once. A search box is also provided to facilitate searching for students by name with a full or partial match.",
       "technologies": [
-        "html",
-        "css",
+        "HTML",
+        "CSS",
         "JavaScript"
       ],
       "live_link": "https://azurekca.github.io/Techdegree-Project-2/",
@@ -120,12 +143,12 @@
         }
     },
     {
-      "id": 6,
+      "id": 7,
       "project_name": "A Random Quote Generator",
       "description": "An app to demonstrate DOM manipulation and simple data structures.",
       "technologies": [
-        "html",
-        "css",
+        "HTML",
+        "CSS",
         "JavaScript"
       ],
       "live_link": "https://azurekca.github.io/Techdegree-Project-1/",
@@ -139,12 +162,12 @@
         }
     },
     {
-      "id": 7,
+      "id": 8,
       "project_name": "Connect Four Game",
       "description": "A browser based version of the classic game Connect Four. The game is completely created with DOM elements and CSS. I made it with the help of a Treehouse tutorial.",
       "technologies": [
-        "html",
-        "css",
+        "HTML",
+        "CSS",
         "Object Oriented JavaScript"
       ],
       "live_link": "https://azurekca.github.io/Connect-Four/",
