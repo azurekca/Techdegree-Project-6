@@ -64,6 +64,29 @@
     },
     {
       "id": 3,
+      "project_name": "React Photo Gallery",
+      "description": "A single page application built with React to search for photos from the Flickr API. This project was made using Create React App and React Router to set up routes for some default topics and the search bar.",
+      "technologies": [
+        "React",
+        "Create React App",
+        "React Router",
+        "JavaScript",
+        "Express",
+        "HTML/JSX",
+        "CSS"
+      ],
+      "live_link": "https://azurekca.github.io/Techdegree-Project-7/",
+      "github_link": "https://github.com/azurekca/Techdegree-Project-7",
+      "image_urls": {
+        "cover": "/static/images/gallery-cover.jpg",
+        "lg": "/static/images/gallery-desktop.jpg",
+        "md": "/static/images/gallery-tablet.jpg",
+        "sm": "/static/images/gallery-phone.jpg",
+        "alt": "Screenshot of SQL gallery website"
+      }
+    },
+    {
+      "id": 4,
       "project_name": "Public API Requests",
       "description": "This website gets random user data from the Random User Generator API and displays user data in an imaginary startup company employee directory. Additional details on each user are displayed when selected and the directory is searchable.",
       "technologies": [
@@ -85,7 +108,7 @@
         }
     },
     {
-      "id": 4,
+      "id": 5,
       "project_name": "Word Guessing Game",
       "description": "This is a browser-based word guessing game similar to hangman. A random phrase is hidden on the screen and the player guesses individual letters to guess the phrase.",
       "technologies": [
@@ -105,7 +128,7 @@
         }
     },
     {
-      "id": 5,
+      "id": 6,
       "project_name": "Interactive Form",
       "description": "This form demonstrates using JavaScript for client side validation. It does not rely on any of the built in browser validations but instead provides helpful feedback to a person signing up for an imaginary conference. ",
       "technologies": [
@@ -124,7 +147,7 @@
         }
     },
     {
-      "id": 6,
+      "id": 7,
       "project_name": "Pagination",
       "description": "This project demonstrates unobtrusive JavaScript to display a long list of student names separated into discrete pages. The user can access all the students by using the links provided at the bottom of the page. This project relies on DOM manipulation and list iteration to parse the HTML data and provide functionality. Without JavaScript enabled, the entire list of students is displayed at once. A search box is also provided to facilitate searching for students by name with a full or partial match.",
       "technologies": [
@@ -143,7 +166,7 @@
         }
     },
     {
-      "id": 7,
+      "id": 8,
       "project_name": "A Random Quote Generator",
       "description": "An app to demonstrate DOM manipulation and simple data structures.",
       "technologies": [
@@ -162,7 +185,7 @@
         }
     },
     {
-      "id": 8,
+      "id": 9,
       "project_name": "Connect Four Game",
       "description": "A browser based version of the classic game Connect Four. The game is completely created with DOM elements and CSS. I made it with the help of a Treehouse tutorial.",
       "technologies": [
