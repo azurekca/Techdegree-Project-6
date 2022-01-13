@@ -1,4 +1,4 @@
-# Techdegree-Project-6
+# Personal Website / Techdegree-Project-6
  Static Node.js and Express Site for the Treehouse FSJS Techdegree
 
  This site showcases my web development work so far. It uses Node.js, Express and Pug to create a fast, modular and dynamic web application.
