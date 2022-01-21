@@ -1,22 +1,78 @@
 {
-	"projects": [
-		{
-			"id": 0,
-			"project_name": "Natasza Zurek Art",
-			"description": "My first website built from scratch. It showcases Natasza Zurek's artwork. Natasza had previously worked with two other web developers but was unhappy with the final results. By communicating freely and openly, I developed this site for her to meet her current needs. She is very happy with the site, and yes, she is my sister.",
-			"technologies": ["HTML", "CSS", "Responsive Design", "Web Design"],
-			"live_link": "https://nataszazurekart.com/",
-			"github_link": "https://github.com/azurekca/Natasza-Zurek-Art-Website",
-			"image_urls": {
-        "cover": "/static/images/nat-website-cover.png",
-        "lg": "/static/images/nat-website-desktop.jpg",
-        "md": "/static/images/nat-website-tablet.png",
-        "sm": "/static/images/nat-website-phone.png",
-        "alt": "Screenshot of Natasza Zurek Art website"
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Cartocuts Map Maker",
+      "description": "An online map tool that generates high dpi custom maps for use in a variety of maker applications such as laser engraved wood or leather. Users can create a user account; customize map location, zoom and features; and purchase credits to generate map files. Purchasing uses Stripe integration.",
+      "technologies": ["Preact", "CSS"],
+      "live_link": "https://app.cartocuts.com/",
+      "image_urls": {
+        "cover": "/static/images/-cover.png",
+        "lg": "/static/images/-desktop.jpg",
+        "md": "/static/images/-tablet.png",
+        "sm": "/static/images/-phone.png",
+        "alt": "Sample screenshot of Cartocuts Map Maker"
       }
     },
     {
       "id": 1,
+      "project_name": "Rooted Shala Physiotherapy and Yoga",
+      "description": "",
+      "technologies": ["11ty", "scss", "Netlify CMS"],
+      "live_link": "https://rootedshala.com",
+      "github_link": "",
+      "image_urls": {
+        "cover": "/static/images/-cover.png",
+        "lg": "/static/images/-desktop.jpg",
+        "md": "/static/images/-tablet.png",
+        "sm": "/static/images/-phone.png"
+      }
+    },
+    {
+      "id": 2,
+      "project_name": "Blewett Community Directory",
+      "description": "A local listings directory for locals and visitors of Blewett, BC. ",
+      "technologies": ["11ty", "scss", "Netlify CMS"],
+      "live_link": "https://blewett-community-directory.netlify.app/",
+      "github_link": "https://github.com/azurekca/blewett-directory",
+      "image_urls": {
+        "cover": "/static/images/-cover.png",
+        "lg": "/static/images/-desktop.jpg",
+        "md": "/static/images/-tablet.png",
+        "sm": "/static/images/-phone.png"
+      }
+    },
+    {
+      "id": 3,
+      "project_name": "Eagle Creek Edibles",
+      "description": "A site I made for my partner and myself to have easy access to our most used recipes.",
+      "technologies": ["11ty", "scss", "Netlify CMS"],
+      "live_link": "https://eagle-creek-edibles.netlify.app/",
+      "github_link": "https://github.com/azurekca/eagle-creek-edibles",
+      "image_urls": {
+        "cover": "/static/images/-cover.png",
+        "lg": "/static/images/-desktop.jpg",
+        "md": "/static/images/-tablet.png",
+        "sm": "/static/images/-phone.png"
+      }
+    },
+    {
+      "id": 4,
+      "project_name": "Natasza Zurek Art",
+      "description": "My first website built from scratch. It showcases Natasza Zurek's artwork. Natasza had previously worked with two other web developers but was unhappy with the final results. By communicating freely and openly, I developed this site for her to meet her current needs. She is very happy with the site, and yes, she is my sister.",
+      "technologies": ["HTML", "CSS", "Responsive Design", "Web Design"],
+      "live_link": "https://nataszazurekart.com/",
+      "github_link": "https://github.com/azurekca/Natasza-Zurek-Art-Website",
+      "image_urls": {
+        "cover": "/static/images/nat-website-cover.png",
+        "lg": "/static/images/nat-website-desktop.jpg",
+        "md": "/static/images/nat-website-tablet.png",
+        "sm": "/static/images/nat-website-phone.png",
+        "alt": "Sample screenshot of Natasza Zurek Art website"
+      }
+    },
+    {
+      "id": 5,
       "project_name": "YelpCamp",
       "description": "This is a hypothetical website for people to look up information on campgrounds, read reviews and leave their own reviews. You can create a user profile to add campgrounds and leave comments. Authentication is used to allow or block permissions based on user id. This is the final project built with the help of and for the Udemy course 'Web Developer Bootcamp by Colt Steele.'",
       "technologies": [
@@ -32,15 +88,15 @@
       "live_link": "https://sleepy-everglades-99325.herokuapp.com/",
       "github_link": "https://github.com/azurekca/YelpCamp",
       "image_urls": {
-          "cover": "/static/images/yelpcamp-cover.png",
-          "lg": "/static/images/yelpcamp-desktop.jpg",
-          "md": "/static/images/yelpcamp-tablet.jpg",
-          "sm": "/static/images/yelpcamp-phone.jpg",
-          "alt": "Screenshot of YelpCamp website"
-        }
+        "cover": "/static/images/yelpcamp-cover.png",
+        "lg": "/static/images/yelpcamp-desktop.jpg",
+        "md": "/static/images/yelpcamp-tablet.jpg",
+        "sm": "/static/images/yelpcamp-phone.jpg",
+        "alt": "Sample screenshot of YelpCamp website"
+      }
     },
     {
-      "id": 2,
+      "id": 6,
       "project_name": "SQL Library",
       "description": "A web application for listing, adding, updating and deleting books in a library. The live version is a demo, so just in case you try to store something in it, it will be gone by tomorrow.",
       "technologies": [
@@ -59,11 +115,11 @@
         "lg": "/static/images/library-desktop.jpg",
         "md": "/static/images/library-tablet.jpg",
         "sm": "/static/images/library-phone.jpg",
-        "alt": "Screenshot of SQL library website"
+        "alt": "Sample screenshot of SQL library website"
       }
     },
     {
-      "id": 3,
+      "id": 7,
       "project_name": "React Photo Gallery",
       "description": "A single page application built with React to search for photos from the Flickr API. This project was made using Create React App and React Router to set up routes for some default topics and the search bar.",
       "technologies": [
@@ -82,11 +138,11 @@
         "lg": "/static/images/gallery-desktop.jpg",
         "md": "/static/images/gallery-tablet.jpg",
         "sm": "/static/images/gallery-phone.jpg",
-        "alt": "Screenshot of SQL gallery website"
+        "alt": "Sample screenshot of SQL gallery website"
       }
     },
     {
-      "id": 4,
+      "id": 8,
       "project_name": "Public API Requests",
       "description": "This website gets random user data from the Random User Generator API and displays user data in an imaginary startup company employee directory. Additional details on each user are displayed when selected and the directory is searchable.",
       "technologies": [
@@ -100,15 +156,15 @@
       "live_link": "https://azurekca.github.io/Techdegree-Project-5/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-5",
       "image_urls": {
-          "cover": "/static/images/public-api-cover.jpg",
-          "lg": "/static/images/public-api-desktop.jpg",
-          "md": "/static/images/public-api-tablet.jpg",
-          "sm": "/static/images/public-api-phone.jpg",
-          "alt": "Screenshot of public api web app"
-        }
+        "cover": "/static/images/public-api-cover.jpg",
+        "lg": "/static/images/public-api-desktop.jpg",
+        "md": "/static/images/public-api-tablet.jpg",
+        "sm": "/static/images/public-api-phone.jpg",
+        "alt": "Sample screenshot of public api web app"
+      }
     },
     {
-      "id": 5,
+      "id": 9,
       "project_name": "Word Guessing Game",
       "description": "This is a browser-based word guessing game similar to hangman. A random phrase is hidden on the screen and the player guesses individual letters to guess the phrase.",
       "technologies": [
@@ -120,86 +176,70 @@
       "live_link": "https://azurekca.github.io/Techdegree-Project-4/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-4",
       "image_urls": {
-          "cover": "/static/images/word-game-cover.jpg",
-          "lg": "/static/images/word-game-desktop.jpg",
-          "md": "/static/images/word-game-tablet.png",
-          "sm": "/static/images/word-game-phone.png",
-          "alt": "Screenshot of Word Guessing Game project"
-        }
+        "cover": "/static/images/word-game-cover.jpg",
+        "lg": "/static/images/word-game-desktop.jpg",
+        "md": "/static/images/word-game-tablet.png",
+        "sm": "/static/images/word-game-phone.png",
+        "alt": "Sample screenshot of Word Guessing Game project"
+      }
     },
     {
-      "id": 6,
+      "id": 10,
       "project_name": "Interactive Form",
       "description": "This form demonstrates using JavaScript for client side validation. It does not rely on any of the built in browser validations but instead provides helpful feedback to a person signing up for an imaginary conference. ",
-      "technologies": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
+      "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://azurekca.github.io/Techdegree-Project-3/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-3",
       "image_urls": {
-          "cover": "/static/images/conf-form-cover.jpg",
-          "lg": "/static/images/conf-form-desktop.jpg",
-          "md": "/static/images/conf-form-tablet.png",
-          "sm": "/static/images/conf-form-phone.png",
-          "alt": "Screenshot of Interactive Form project"
-        }
+        "cover": "/static/images/conf-form-cover.jpg",
+        "lg": "/static/images/conf-form-desktop.jpg",
+        "md": "/static/images/conf-form-tablet.png",
+        "sm": "/static/images/conf-form-phone.png",
+        "alt": "Sample screenshot of Interactive Form project"
+      }
     },
     {
-      "id": 7,
+      "id": 11,
       "project_name": "Pagination",
       "description": "This project demonstrates unobtrusive JavaScript to display a long list of student names separated into discrete pages. The user can access all the students by using the links provided at the bottom of the page. This project relies on DOM manipulation and list iteration to parse the HTML data and provide functionality. Without JavaScript enabled, the entire list of students is displayed at once. A search box is also provided to facilitate searching for students by name with a full or partial match.",
-      "technologies": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
+      "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://azurekca.github.io/Techdegree-Project-2/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-2",
       "image_urls": {
-          "cover": "/static/images/pagination-cover.jpg",
-          "lg": "/static/images/pagination-desktop.jpg",
-          "md": "/static/images/pagination-tablet.png",
-          "sm": "/static/images/pagination-phone.png",
-          "alt": "Screenshot of Pagination project."
-        }
+        "cover": "/static/images/pagination-cover.jpg",
+        "lg": "/static/images/pagination-desktop.jpg",
+        "md": "/static/images/pagination-tablet.png",
+        "sm": "/static/images/pagination-phone.png",
+        "alt": "Sample screenshot of Pagination project."
+      }
     },
     {
-      "id": 8,
+      "id": 12,
       "project_name": "A Random Quote Generator",
       "description": "An app to demonstrate DOM manipulation and simple data structures.",
-      "technologies": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
+      "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://azurekca.github.io/Techdegree-Project-1/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-1",
       "image_urls": {
-          "cover": "/static/images/quotes-cover.jpg",
-          "lg": "/static/images/quotes-desktop.jpg",
-          "md": "/static/images/quotes-tablet.png",
-          "sm": "/static/images/quotes-phone.png",
-          "alt": "Screenshot of A Random Quote Generator project."
-        }
+        "cover": "/static/images/quotes-cover.jpg",
+        "lg": "/static/images/quotes-desktop.jpg",
+        "md": "/static/images/quotes-tablet.png",
+        "sm": "/static/images/quotes-phone.png",
+        "alt": "Sample screenshot of A Random Quote Generator project."
+      }
     },
     {
-      "id": 9,
+      "id": 13,
       "project_name": "Connect Four Game",
       "description": "A browser based version of the classic game Connect Four. The game is completely created with DOM elements and CSS. I made it with the help of a Treehouse tutorial.",
-      "technologies": [
-        "HTML",
-        "CSS",
-        "Object Oriented JavaScript"
-      ],
+      "technologies": ["HTML", "CSS", "Object Oriented JavaScript"],
       "live_link": "https://azurekca.github.io/Connect-Four/",
       "github_link": "https://github.com/azurekca/connect-four",
       "image_urls": {
-          "cover": "/static/images/connect-4-cover.jpg",
-          "lg": "/static/images/connect-4-desktop.jpg",
-          "alt": "Screenshot of connect four game"
-        }
+        "cover": "/static/images/connect-4-cover.jpg",
+        "lg": "/static/images/connect-4-desktop.jpg",
+        "alt": "Sample screenshot of connect four game"
+      }
     }
-	]
+  ]
 }
