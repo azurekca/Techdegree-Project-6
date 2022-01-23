@@ -1,15 +1,16 @@
 :root {
   --color-black: #0e1b1a;
-	--color-dark: #162b29;
-	--color-med-dark: #216a61;
-	--color-med: #f8bd98;
-	--color-bright: #fbda57;
-	--color-light: #ffe8e2;
+  --color-dark: #162b29;
+  --color-med-dark: #216a61;
+  --color-med: #f8bd98;
+  --color-bright: #fbda57;
+  --color-light: #ffe8e2;
 }
 
 body {
   background-color: var(--color-light);
-  font-family: 'Open Sans','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Lato', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
 }
 
 h1,
@@ -17,12 +18,17 @@ h2,
 h3,
 h4,
 h6 {
-	font-family: 'Abril Fatface', serif;
-	color: var(--color-dark);
+  font-family: 'Abril Fatface', serif;
+  color: var(--color-dark);
 }
 
-h1, h2 {
-	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, var(--color-bright) 50%);
+h1,
+h2 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 50%,
+    var(--color-bright) 50%
+  );
   padding-left: 0.5em;
   margin-bottom: 1.5rem;
 }
@@ -37,51 +43,54 @@ h2 {
 }
 
 h5 {
-	font-family: 'Open Sans','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	letter-spacing: 2.5px;
-	-webkit-text-transform: uppercase;
-	text-transform: uppercase;
+  font-family: 'Open Sans', 'Lato', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 h6 {
   letter-spacing: 2.5px;
-	-webkit-text-transform: uppercase;
-	text-transform: uppercase;
-	font-weight: 600;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 p {
-  font-family: 'Open Sans','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Lato', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
   font-size: 1.125rem;
   line-height: 1.58;
-	color: #666;
+  color: #666;
 }
 
 .round {
-	border-radius: 5px;
+  border-radius: 5px;
 }
 
 .text-light {
-	color: #666;
+  color: #666;
 }
 
-.button {
-	color: var(--color-med-dark);
+.button,
+.info-me .button {
+  color: var(--color-med-dark);
   background-color: var(--color-med);
   font-weight: bold;
 }
 
 .button:hover {
-	background-color: var(--color-dark);
+  background-color: var(--color-dark);
 }
 
 .button:focus {
-	color: var(--color-med-dark);
-	background-color: var(--color-bright);
+  color: var(--color-med-dark);
+  background-color: var(--color-bright);
 }
 
 nav.grid-container {
-	margin: 0;
+  margin: 0;
   padding: 10px 40px 0;
   max-width: none;
 }
@@ -91,11 +100,11 @@ nav.grid-container:last-of-type {
 }
 
 nav a {
-	font-family: Arial, sans-serif;
-	font-weight: 600;
-	font-size: 13px;
-	letter-spacing: 2.5px;
-	-webkit-text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
   text-transform: uppercase;
   line-height: 1.5;
 }
@@ -109,7 +118,7 @@ a.cell {
 }
 
 a:hover {
-	color: var(--color-med);
+  color: var(--color-med);
 }
 
 a img:hover {
@@ -121,58 +130,68 @@ span {
 }
 
 .image {
-	display: inline-block;
-	max-width: 100%;
-	margin-bottom: 1rem;
-	border: solid 4px #fefefe;
-	border-radius: 0;
-	box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
-	line-height: 0;
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border: solid 4px #fefefe;
+  border-radius: 0;
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  line-height: 0;
+}
+
+.info-me {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#contact-info {
+  margin-top: auto;
 }
 
 .portfolio-me {
-	padding: 20px;
-	background: var(--color-dark);
-	color: var(--color-light);
-	box-shadow: none !important;
+  padding: 20px;
+  background: var(--color-dark);
+  color: var(--color-light);
+  box-shadow: none !important;
 }
 
 .portfolio-me p {
-	font-size: 14px;
-	color: var(--color-light);
+  font-size: 14px;
+  color: var(--color-light);
 }
 
 .portfolio-me a {
-	font-family: Arial, sans-serif;
-	font-weight: 600;
-	color: var(--color-bright);
-	font-size: 13px;
-	letter-spacing: 2.5px;
-	-webkit-text-transform: uppercase;
-	text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  color: var(--color-bright);
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .portfolio-me a:hover {
-	color: var(--color-med);
+  color: var(--color-med);
 }
 
 .portfolio-intro {
-	margin: 0;
-	padding: 30px 30px 30px;
+  margin: 0;
+  padding: 30px 30px 30px;
 }
 
 .portfolio-intro p {
-	padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .portfolio-index {
-	margin: 0;
-	padding: 10px 50px;
+  margin: 0;
+  padding: 10px 50px;
 }
 
 .portfolio-index .thumbnail {
   margin-bottom: 5px;
-	border: none;
+  border: none;
   box-shadow: 0 0 25px -13px var(--color-bright);
   transition: transform linear 0.5s;
 }
@@ -192,22 +211,22 @@ span {
 }
 
 .portfolio-index .cell h3 {
-	letter-spacing: 1px;
-	text-align: left;
-	font-size: 1.7rem;
-	padding-left: 1rem;
+  letter-spacing: 1px;
+  text-align: left;
+  font-size: 1.7rem;
+  padding-left: 1rem;
 }
 
 .portfolio-meta .button {
-	margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .portfolio-project p {
-	border: none;
+  border: none;
 }
 
 .portfolio-project li {
-	font-size: 18px;
+  font-size: 18px;
   color: #444;
   list-style: none;
 }
@@ -220,7 +239,6 @@ span {
 
 .portfolio-project li address a {
   color: #444;
-
 }
 
 .portfolio-project li::before {
@@ -232,24 +250,24 @@ span {
 }
 
 .title-bar {
-	background-color: var(--color-dark);
+  background-color: var(--color-dark);
 }
 
 .title-bar-title {
   color: var(--color-light);
   padding-left: 1rem;
-  font-size: 1.3rem;;
+  font-size: 1.3rem;
 }
 
 /* hamburger colours */
 .menu-icon::after {
-	background: var(--color-bright);
-	box-shadow: 0 7px 0 var(--color-bright), 0 14px 0 var(--color-bright);
+  background: var(--color-bright);
+  box-shadow: 0 7px 0 var(--color-bright), 0 14px 0 var(--color-bright);
 }
 
 .menu-icon:hover::after {
-	background: var(--color-med-dark);
-	box-shadow: 0 7px 0 var(--color-med-dark), 0 14px 0 var(--color-med-dark);
+  background: var(--color-med-dark);
+  box-shadow: 0 7px 0 var(--color-med-dark), 0 14px 0 var(--color-med-dark);
 }
 
 /* CSS for devices from https://www.w3schools.com/howto/howto_css_devices.asp  */
@@ -358,14 +376,13 @@ div.laptop.cell {
   width: 100%;
   max-width: 200px;
   height: auto;
-  margin:  auto;
+  margin: auto;
   border: 1px var(--color-black) solid;
   background-color: var(--color-black);
   /* border-top-width: 20px; */
   /* border-bottom-width: 15px; */
   border-radius: 8%/4%;
   padding: 1.6% 0.45% 1.4%;
-  
 }
 
 /* The horizontal line on the top of the device */
