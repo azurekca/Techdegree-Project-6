@@ -3,8 +3,14 @@
     {
       "id": 0,
       "project_name": "Cartocuts Map Maker",
-      "description": "An online map tool that generates high dpi custom maps for use in a variety of maker applications such as laser engraved wood or leather. Users can create a user account; customize map location, zoom and features; and purchase credits to generate map files. Purchasing uses Stripe integration.",
-      "technologies": ["Preact", "CSS"],
+      "description": "An online map tool for generating high dpi custom maps for use in a variety of maker applications such as laser engraved wood or leather. Users can create a user account, customize map location, toggle map features, and purchase credits to generate map files. Purchases use Stripe integration.",
+      "technologies": [
+        "Preact",
+        "JavaScript",
+        "css-in-js",
+        "Mapbox",
+        "Stripe integration"
+      ],
       "live_link": "https://app.cartocuts.com/",
       "image_urls": {
         "cover": "/static/images/cartocuts-cover",
@@ -15,8 +21,14 @@
     {
       "id": 1,
       "project_name": "Rooted Shala Physiotherapy and Yoga",
-      "description": "",
-      "technologies": ["11ty", "scss", "Netlify CMS"],
+      "description": "Informational business website for Charlotte Heapy, physiotherapist and yoga instructor, to help her build her online presence. The site is easy to edit using Neltify CMS.",
+      "technologies": [
+        "11ty Static Site Generator",
+        "Nunjucks templates",
+        "scss",
+        "Netlify CMS",
+        "Responsive design"
+      ],
       "live_link": "https://rootedshala.com",
       "github_link": "",
       "image_urls": {
@@ -29,8 +41,15 @@
     {
       "id": 2,
       "project_name": "Blewett Community Directory",
-      "description": "A local listings directory for locals and visitors of Blewett, BC. ",
-      "technologies": ["11ty", "scss", "Netlify CMS"],
+      "description": "A business listings directory for locals and visitors of Blewett, BC, Canada. Integration with Netlify CMS allows for easily adding and editing listings. ",
+      "technologies": [
+        "11ty Static Site Generator",
+        "Nunjucks templates",
+        "JavaScript",
+        "scss",
+        "Netlify CMS",
+        "Leaflet maps"
+      ],
       "live_link": "https://blewett-community-directory.netlify.app/",
       "github_link": "https://github.com/azurekca/blewett-directory",
       "image_urls": {
@@ -43,8 +62,13 @@
     {
       "id": 3,
       "project_name": "Eagle Creek Edibles",
-      "description": "A site I made for my partner and myself to have easy access to our most used recipes.",
-      "technologies": ["11ty", "scss", "Netlify CMS"],
+      "description": "A site I made for my partner and myself to have easy access to our most used recipes. Integration with Netlify CMS allows for easily adding and editing recipes.",
+      "technologies": [
+        "11ty Static Site Generator",
+        "scss",
+        "JavaScript",
+        "Netlify CMS"
+      ],
       "live_link": "https://eagle-creek-edibles.netlify.app/",
       "github_link": "https://github.com/azurekca/eagle-creek-edibles",
       "image_urls": {
