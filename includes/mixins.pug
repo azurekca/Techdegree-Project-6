@@ -1,0 +1,5 @@
+mixin pic(src, alt)
+  picture
+    source(type="image/avif" srcset=`${src}.avif`)
+    source(type="image/webp" srcset=`${src}.webp`)
+    img(class!=attributes.class src=`${src}.png` alt=alt)

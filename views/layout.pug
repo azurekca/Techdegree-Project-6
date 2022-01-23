@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+include ../includes/mixins
+
+doctype html
 html(class="no-js" lang="en" dir="ltr")
   head
     meta(charset='utf-8')
@@ -16,7 +18,7 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           a.cell.shrink(href='/')
-            img.thumbnail(src="/static/images/agata-square.jpg" alt="Agata Zurek")
+            +pic('/static/images/agata-square', 'Headshot of Agata Zurek')(class="thumbnail")
           .cell.auto
             .info-me
             h5 Agata Zurek

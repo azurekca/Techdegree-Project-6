@@ -16,5 +16,6 @@ block content
         .cell
           a(href=`/project/${project.id}`)
             //- 550 x 550
-            div: img.thumbnail(src=`${project.image_urls.cover}` alt=`${project.image_urls.alt}`)
+            div
+              +pic(project.image_urls.cover, project.image_urls.alt)(class="thumbnail")
             h3 #{project.project_name}

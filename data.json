@@ -7,10 +7,8 @@
       "technologies": ["Preact", "CSS"],
       "live_link": "https://app.cartocuts.com/",
       "image_urls": {
-        "cover": "/static/images/-cover.png",
-        "lg": "/static/images/-desktop.jpg",
-        "md": "/static/images/-tablet.png",
-        "sm": "/static/images/-phone.png",
+        "cover": "/static/images/cartocuts-cover",
+        "lg": "/static/images/cartocuts-desktop",
         "alt": "Sample screenshot of Cartocuts Map Maker"
       }
     },
@@ -22,10 +20,10 @@
       "live_link": "https://rootedshala.com",
       "github_link": "",
       "image_urls": {
-        "cover": "/static/images/-cover.png",
-        "lg": "/static/images/-desktop.jpg",
-        "md": "/static/images/-tablet.png",
-        "sm": "/static/images/-phone.png"
+        "cover": "/static/images/rootedshala-cover",
+        "lg": "/static/images/rootedshala-desktop",
+        "md": "/static/images/rootedshala-tablet",
+        "sm": "/static/images/rootedshala-phone"
       }
     },
     {
@@ -36,10 +34,10 @@
       "live_link": "https://blewett-community-directory.netlify.app/",
       "github_link": "https://github.com/azurekca/blewett-directory",
       "image_urls": {
-        "cover": "/static/images/-cover.png",
-        "lg": "/static/images/-desktop.jpg",
-        "md": "/static/images/-tablet.png",
-        "sm": "/static/images/-phone.png"
+        "cover": "/static/images/blewett-cover",
+        "lg": "/static/images/blewett-desktop",
+        "md": "/static/images/blewett-tablet",
+        "sm": "/static/images/blewett-phone"
       }
     },
     {
@@ -50,10 +48,10 @@
       "live_link": "https://eagle-creek-edibles.netlify.app/",
       "github_link": "https://github.com/azurekca/eagle-creek-edibles",
       "image_urls": {
-        "cover": "/static/images/-cover.png",
-        "lg": "/static/images/-desktop.jpg",
-        "md": "/static/images/-tablet.png",
-        "sm": "/static/images/-phone.png"
+        "cover": "/static/images/food-cover",
+        "lg": "/static/images/food-desktop",
+        "md": "/static/images/food-tablet",
+        "sm": "/static/images/food-phone"
       }
     },
     {
@@ -64,10 +62,10 @@
       "live_link": "https://nataszazurekart.com/",
       "github_link": "https://github.com/azurekca/Natasza-Zurek-Art-Website",
       "image_urls": {
-        "cover": "/static/images/nat-website-cover.png",
-        "lg": "/static/images/nat-website-desktop.jpg",
-        "md": "/static/images/nat-website-tablet.png",
-        "sm": "/static/images/nat-website-phone.png",
+        "cover": "/static/images/nat-website-cover",
+        "lg": "/static/images/nat-website-desktop",
+        "md": "/static/images/nat-website-tablet",
+        "sm": "/static/images/nat-website-phone",
         "alt": "Sample screenshot of Natasza Zurek Art website"
       }
     },
@@ -88,10 +86,10 @@
       "live_link": "https://sleepy-everglades-99325.herokuapp.com/",
       "github_link": "https://github.com/azurekca/YelpCamp",
       "image_urls": {
-        "cover": "/static/images/yelpcamp-cover.png",
-        "lg": "/static/images/yelpcamp-desktop.jpg",
-        "md": "/static/images/yelpcamp-tablet.jpg",
-        "sm": "/static/images/yelpcamp-phone.jpg",
+        "cover": "/static/images/yelpcamp-cover",
+        "lg": "/static/images/yelpcamp-desktop",
+        "md": "/static/images/yelpcamp-tablet",
+        "sm": "/static/images/yelpcamp-phone",
         "alt": "Sample screenshot of YelpCamp website"
       }
     },
@@ -111,10 +109,10 @@
       "live_link": "https://sql-library-demo.herokuapp.com/books/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-8",
       "image_urls": {
-        "cover": "/static/images/library-cover.jpg",
-        "lg": "/static/images/library-desktop.jpg",
-        "md": "/static/images/library-tablet.jpg",
-        "sm": "/static/images/library-phone.jpg",
+        "cover": "/static/images/library-cover",
+        "lg": "/static/images/library-desktop",
+        "md": "/static/images/library-tablet",
+        "sm": "/static/images/library-phone",
         "alt": "Sample screenshot of SQL library website"
       }
     },
@@ -134,10 +132,10 @@
       "live_link": "https://azurekca.github.io/Techdegree-Project-7/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-7",
       "image_urls": {
-        "cover": "/static/images/gallery-cover.jpg",
-        "lg": "/static/images/gallery-desktop.jpg",
-        "md": "/static/images/gallery-tablet.jpg",
-        "sm": "/static/images/gallery-phone.jpg",
+        "cover": "/static/images/gallery-cover",
+        "lg": "/static/images/gallery-desktop",
+        "md": "/static/images/gallery-tablet",
+        "sm": "/static/images/gallery-phone",
         "alt": "Sample screenshot of SQL gallery website"
       }
     },
@@ -156,10 +154,10 @@
       "live_link": "https://azurekca.github.io/Techdegree-Project-5/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-5",
       "image_urls": {
-        "cover": "/static/images/public-api-cover.jpg",
-        "lg": "/static/images/public-api-desktop.jpg",
-        "md": "/static/images/public-api-tablet.jpg",
-        "sm": "/static/images/public-api-phone.jpg",
+        "cover": "/static/images/public-api-cover",
+        "lg": "/static/images/public-api-desktop",
+        "md": "/static/images/public-api-tablet",
+        "sm": "/static/images/public-api-phone",
         "alt": "Sample screenshot of public api web app"
       }
     },
@@ -176,10 +174,10 @@
       "live_link": "https://azurekca.github.io/Techdegree-Project-4/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-4",
       "image_urls": {
-        "cover": "/static/images/word-game-cover.jpg",
-        "lg": "/static/images/word-game-desktop.jpg",
-        "md": "/static/images/word-game-tablet.png",
-        "sm": "/static/images/word-game-phone.png",
+        "cover": "/static/images/word-game-cover",
+        "lg": "/static/images/word-game-desktop",
+        "md": "/static/images/word-game-tablet",
+        "sm": "/static/images/word-game-phone",
         "alt": "Sample screenshot of Word Guessing Game project"
       }
     },
@@ -191,10 +189,10 @@
       "live_link": "https://azurekca.github.io/Techdegree-Project-3/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-3",
       "image_urls": {
-        "cover": "/static/images/conf-form-cover.jpg",
-        "lg": "/static/images/conf-form-desktop.jpg",
-        "md": "/static/images/conf-form-tablet.png",
-        "sm": "/static/images/conf-form-phone.png",
+        "cover": "/static/images/conf-form-cover",
+        "lg": "/static/images/conf-form-desktop",
+        "md": "/static/images/conf-form-tablet",
+        "sm": "/static/images/conf-form-phone",
         "alt": "Sample screenshot of Interactive Form project"
       }
     },
@@ -206,10 +204,10 @@
       "live_link": "https://azurekca.github.io/Techdegree-Project-2/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-2",
       "image_urls": {
-        "cover": "/static/images/pagination-cover.jpg",
-        "lg": "/static/images/pagination-desktop.jpg",
-        "md": "/static/images/pagination-tablet.png",
-        "sm": "/static/images/pagination-phone.png",
+        "cover": "/static/images/pagination-cover",
+        "lg": "/static/images/pagination-desktop",
+        "md": "/static/images/pagination-tablet",
+        "sm": "/static/images/pagination-phone",
         "alt": "Sample screenshot of Pagination project."
       }
     },
@@ -221,10 +219,10 @@
       "live_link": "https://azurekca.github.io/Techdegree-Project-1/",
       "github_link": "https://github.com/azurekca/Techdegree-Project-1",
       "image_urls": {
-        "cover": "/static/images/quotes-cover.jpg",
-        "lg": "/static/images/quotes-desktop.jpg",
-        "md": "/static/images/quotes-tablet.png",
-        "sm": "/static/images/quotes-phone.png",
+        "cover": "/static/images/quotes-cover",
+        "lg": "/static/images/quotes-desktop",
+        "md": "/static/images/quotes-tablet",
+        "sm": "/static/images/quotes-phone",
         "alt": "Sample screenshot of A Random Quote Generator project."
       }
     },
@@ -236,8 +234,8 @@
       "live_link": "https://azurekca.github.io/Connect-Four/",
       "github_link": "https://github.com/azurekca/connect-four",
       "image_urls": {
-        "cover": "/static/images/connect-4-cover.jpg",
-        "lg": "/static/images/connect-4-desktop.jpg",
+        "cover": "/static/images/connect-4-cover",
+        "lg": "/static/images/connect-4-desktop",
         "alt": "Sample screenshot of connect four game"
       }
     }

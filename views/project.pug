@@ -27,10 +27,9 @@ block content
         | Project Gallery 
       if project.image_urls.sm
         .phone.cell.small-5.medium-4.medium-offset-1.large-offset-2
-          img.content(src=`${project.image_urls.sm}` alt=`${project.image_urls.alt}`)
+          +pic(project.image_urls.sm, project.image_urls.alt)(class="content")
       if project.image_urls.md
         .tablet.cell.small-7.medium-6
-          img.content(src=`${project.image_urls.md}` alt=`${project.image_urls.alt}`)
+          +pic(project.image_urls.md, project.image_urls.alt)(class="content")
       .laptop.cell
-        img.content(src=`${project.image_urls.lg}` alt=`${project.image_urls.alt}`)
-    
+        +pic(project.image_urls.lg, project.image_urls.alt)(class="content")
