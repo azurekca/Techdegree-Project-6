@@ -1,7 +1,6 @@
 {
-  "name": "techdegree-project-6",
-  "version": "1.0.0",
-  "description": "Static Node.js and Express Site for the Treehouse FSJS Techdegree",
+  "name": "agata-zurek-portfolio-site",
+  "description": "My personal web development portfolio site built with express for the Treehouse FSJS Techdegree project 6",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
