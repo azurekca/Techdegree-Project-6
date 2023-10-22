@@ -1,12 +1,11 @@
 const express = require('express');
 const path = require('path');
-const PORT = process.env.PORT || 80; // for testing was 3000, changed to 80 for digital ocean. Would be good to figure process.env.PORT for digital ocean.
-
+const PORT = 3000
 const app = express();
 
 // APP CONFIG
 app.set('view engine', 'pug');
-app.use('/static', express.static(path.join(__dirname,'public')));
+app.use('/static', express.static(path.join(__dirname, 'public')));
 
 const routes = require('./routes/index');
 app.use(routes);
@@ -32,4 +31,4 @@ app.use((err, req, res, next) => {
   res.render('error')
 });
 
-app.listen(PORT, console.log(`Server running on ${PORT}`));
+app.listen(PORT, console.log(`Server running in env on ${PORT}`));
